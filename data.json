@@ -1,0 +1,15 @@
+{
+  "folders": [
+    { "id": "welcome", "name": "Welcome", "parentId": null }
+  ],
+  "notes": [
+    {
+      "id": "welcome-note",
+      "title": "Welcome to your Notebook",
+      "folderId": "welcome",
+      "contentHtml": "<p>This is your new notebook. Tell Claude what you'd like to add, edit, or organize into folders, and it will update this site and redeploy.</p><p>Try the <strong>search bar</strong> at the top, or press the <strong>Read aloud</strong> button below to hear this note spoken out loud.</p>",
+      "createdAt": 1756771200000,
+      "updatedAt": 1756771200000
+    }
+  ]
+}

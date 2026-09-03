@@ -10,10 +10,10 @@ export function useNotebookData() {
     fetch("/data.json", { cache: "no-store" })
       .then((res) => res.json())
       .then((json: NotebookData) => {
-        if (!cancelled) setData({ folders: json.folders || [], notes: json.notes || [] });
+        if (!cancelled) setData({ notes: json.notes || [] });
       })
       .catch(() => {
-        if (!cancelled) setData({ folders: [], notes: [] });
+        if (!cancelled) setData({ notes: [] });
       })
       .finally(() => {
         if (!cancelled) setLoading(false);
